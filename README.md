@@ -1,2 +1,2 @@
 # dotfiles
-Personal configuration files
+Personal settings and configuration files
