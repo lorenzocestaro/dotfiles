@@ -1,0 +1,34 @@
+
+[user]
+    name = Lorenzo Cestaro
+    email = cestaro.lorenzo@gmail.com
+
+[github]
+    user = lorenzocestaro
+
+[core]
+    excludesfile = ~/.gitignore_global
+    editor = nano
+    filemode = false
+
+[core]
+    editor = nano
+
+[alias]
+    amend = commit --amend --reuse-message=HEAD
+    br = branch
+    ci = commit
+    co = checkout
+    df = diff --word-diff
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    lg = log -p
+    ll = log --pretty=oneline --graph --abbrev-commit
+    lm = log --pretty=format:'* %s (%h)'
+    p = push
+    pf = push --force
+    st = status
+    unstage = reset --hard HEAD
+
+[push]
+    default = simple
+    followTags = true
