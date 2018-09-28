@@ -11,9 +11,6 @@
     editor = nano
     filemode = false
 
-[core]
-    editor = nano
-
 [alias]
     amend = commit --amend --reuse-message=HEAD
     br = branch
