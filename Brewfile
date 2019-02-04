@@ -26,3 +26,8 @@ cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
+
+# quick-look plugins
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'quicklook-json'
