@@ -1,9 +1,9 @@
 {
     "editor.autoIndent": true,
     "editor.fontFamily": "'Operator Mono', 'DankMono', 'Fira Code', 'monospaced'",
-    "editor.fontWeight": "200",
+    "editor.fontWeight": "100",
     "editor.fontLigatures": true,
-    "editor.fontSize": 19,
+    "editor.fontSize": 18,
     "editor.minimap.renderCharacters": false,
     "editor.mouseWheelZoom": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -60,7 +60,7 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
 
-    "terminal.integrated.fontFamily": "FuraCode Nerd Font",
+    "terminal.integrated.fontFamily": "FuraCode Nerd Font Mono",
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.shell.osx": "/bin/zsh",
 
@@ -95,7 +95,6 @@
 
     "gitlens.keymap": "chorded",
     "gitlens.codeLens.scopes": ["document"],
-    "gitlens.historyExplorer.enabled": true,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -113,5 +112,6 @@
 
     "vsicons.dontShowNewVersionMessage": true,
 
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "terminal.integrated.fontWeightBold": "normal"
 }
