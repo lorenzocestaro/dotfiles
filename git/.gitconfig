@@ -2,6 +2,7 @@
 [user]
     name = Lorenzo Cestaro
     email = cestaro.lorenzo@gmail.com
+    signingkey = 
 
 [github]
     user = lorenzocestaro
@@ -29,3 +30,9 @@
 [push]
     default = simple
     followTags = true
+
+[commit]
+    gpgsign = true
+
+[gpg]
+    program = gpg
