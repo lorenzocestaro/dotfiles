@@ -29,4 +29,7 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 source $(brew --prefix autoenv)/activate.sh
 
+# Disable AUTO_CD (automatically switch dir if you type a subdirectory name).
+unsetopt AUTO_CD
+
 source $ZSH/oh-my-zsh.sh
