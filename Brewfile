@@ -1,5 +1,6 @@
 brew 'autoenv'
 brew 'bash-completion'
+brew 'coreutils'
 brew 'docker'
 brew 'fzf'
 brew 'git'
