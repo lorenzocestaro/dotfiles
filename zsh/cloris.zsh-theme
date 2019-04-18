@@ -1,4 +1,5 @@
 BGREEN="%{$fg_bold[green]%}"
+BRED="%{$fg_bold[red]%}"
 GREEN="%{$fg[green]%}"
 BYELLOW="%{$fg_bold[yellow]%}"
 YELLOW="%{$fg[yellow]%}"
@@ -32,4 +33,12 @@ function git_status() {
     fi
 }
 
-PROMPT='$BGREEN⬢ $BYELLOW%c$(git_prompt_info)$(git_status)$BGREEN$PROMPT_SYMBOL $RESET'
+function command_status() {
+    if [[ $? -ne 0 ]]; then
+        echo "$BRED"
+    else
+        echo "$BGREEN"
+    fi
+}
+
+PROMPT='$(command_status)⬢ $BYELLOW%c$(git_prompt_info)$(git_status)$BGREEN$PROMPT_SYMBOL $RESET'
